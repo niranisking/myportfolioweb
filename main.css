@@ -631,7 +631,7 @@ body {
 
 .projects__single-project:hover .team__profile {
   opacity: 1;
-  transform: scale(1) translate(-50%, -0%);
+  transform: scale(1) translate(-50%, -50%);
 }
 
 @media screen and (min-width: 768px) {
