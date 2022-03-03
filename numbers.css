@@ -257,6 +257,7 @@ align-items: center;}
     display: flex;
     flex-wrap: wrap;
     background: var(--grey-300);
+     border: 1px solid black;
 }
 .nav__btn { display: none;}
 .nav__links {
