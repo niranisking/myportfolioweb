@@ -539,7 +539,7 @@ margin: 2rem auto;}
     margin: 0 auto;
   
     padding: 3rem 0;
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('./img/pexels-photo-3361483\ edit.jpg')center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('./img/pexels-photo-3361483.jpeg')center/cover no-repeat fixed;
     color: var(--light);
 }
 
