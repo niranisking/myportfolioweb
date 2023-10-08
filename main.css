@@ -557,6 +557,8 @@ body {
   .numbers__single-number {
     flex: 0 0 calc(33.33% - 0.5rem);
   }
+
+ 
 }
 
 /* end of numbers section */
@@ -583,10 +585,11 @@ body {
   padding: 3rem 0;
   /* background: var(--SectionWhite); */
   background: linear-gradient(
-    silver,
-    silver
-  )
-  /* background: url(./img/pexels-gradienta-7130538.jpg) center/cover no-repeat; */
+      silver,
+      rgba(255, 255, 255, 0.9)
+    ),
+    /* url(./img/pexels-daniel-putzer-633409.jpg) center/cover no-repeat; */
+    url(./img/pexels-daniel-putzer-633409.jpg) center/cover no-repeat;
 }
 
 .projects__center {
@@ -732,6 +735,8 @@ contact__email {
   text-decoration: ita;
 }
 
+
+
 /* end of contact section */
 
 /* footer */
@@ -757,4 +762,24 @@ contact__email {
   color: var(--grey);
 }
 
+.contact, .footer {
+  margin: 0;
+}
+
 /* end of footer */
+
+.certifications {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  url("./img/pexels-photo-3361483\ edit.jpg") center/cover no-repeat fixed;
+  
+ 
+}
+
+.certificationsh1 {
+  
+  margin-top: 45px;
+}
+
+.certifications_center {
+  padding-bottom: 35px;
+}
