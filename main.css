@@ -565,6 +565,21 @@ body {
 
 /* projects & my team section */
 
+
+.projects__single-project img {
+
+  height: 50%;
+  width: 100%;
+
+
+}
+
+.project__text {
+
+  line-height: 1.5;
+
+}
+
 .my__team {
   padding: 3rem 0;
   /* background: linear-gradient(
@@ -600,12 +615,15 @@ body {
 .projects__single-project {
   margin: 2rem auto;
   position: relative;
+  /* padding: 3%; */
 }
+
+
 
 .projects__single-project-img {
   display: block;
   width: 100%;
-  border-radius: 50%;
+  border-radius: 10%;
   /* border-radius: 0.25rem; */
 }
 
